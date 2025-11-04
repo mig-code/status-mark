@@ -2,18 +2,14 @@
 
 > Identify your workspaces with custom titles, emojis, and colors
 
-<!-- Uncomment these badges after publishing to the marketplace -->
-<!-- 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/YOUR-PUBLISHER.statusmark)](https://marketplace.visualstudio.com/items?itemName=YOUR-PUBLISHER.statusmark)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/YOUR-PUBLISHER.statusmark)](https://marketplace.visualstudio.com/items?itemName=YOUR-PUBLISHER.statusmark)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/YOUR-PUBLISHER.statusmark)](https://marketplace.visualstudio.com/items?itemName=YOUR-PUBLISHER.statusmark)
--->
+[![Version](https://img.shields.io/visual-studio-marketplace/v/mig-code.statusmark)](https://marketplace.visualstudio.com/items?itemName=mig-code.statusmark)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/mig-code.statusmark)](https://marketplace.visualstudio.com/items?itemName=mig-code.statusmark)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/mig-code.statusmark)](https://marketplace.visualstudio.com/items?itemName=mig-code.statusmark)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Make your VS Code workspace instantly recognizable! StatusMark lets you add a custom name, emoji, and color to your status bar, perfect for quickly identifying projects when working with multiple VS Code windows.
 
-<!-- TODO: Add demo GIF here -->
-<!-- ![Demo](images/demo.gif) -->
+![StatusMark Demo](images/statusmark_demo.gif)
 
 ## ✨ Features
 
@@ -26,27 +22,13 @@ Make your VS Code workspace instantly recognizable! StatusMark lets you add a cu
 - **💾 Per-Workspace** - Each project keeps its own settings
 - **🔄 Easy Reset** - One command to restore defaults
 
-## 📸 Screenshots
-
-<!-- TODO: Add screenshots here -->
-<!-- 
-![Configuration](images/configure.png)
-*Easy configuration with live preview*
-
-![Color Picker](images/color-picker.png)
-*Beautiful color palettes with theme defaults*
-
-![Multiple Windows](images/multiple-windows.png)
-*Quickly identify projects with different badges*
--->
-
 ## 🚀 Getting Started
 
 ### Installation
 
 1. Open VS Code
 2. Press `Ctrl+P` / `Cmd+P`
-3. Type: `ext install YOUR-PUBLISHER.statusmark`
+3. Type: `ext install mig-code.statusmark`
 4. Press Enter
 
 Or search for "StatusMark" in the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`).
@@ -73,18 +55,6 @@ Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and type:
 | `StatusMark: Configure` | Complete setup wizard for label and status bar |
 | `StatusMark: Configure Status Bar Color` | Quick status bar color adjustment |
 | `StatusMark: Reset Workspace Settings` | Reset all settings to defaults |
-
-### Configuration
-
-You can also edit settings manually in your workspace settings (`.vscode/settings.json`):
-
-```json
-{
-  "statusmark.name": "My Awesome Project",
-  "statusmark.emoji": "🚀",
-  "statusmark.color": "#0EA5E9"
-}
-```
 
 ## 🎨 Color Palettes
 
@@ -150,7 +120,7 @@ This extension uses **workspace-level settings** by default, so each project can
 
 ## 🐛 Known Issues
 
-None at the moment! [Report issues on GitHub](https://github.com/yourusername/statusmark/issues).
+None at the moment! [Report issues on GitHub](https://github.com/mig-code/status-mark/issues).
 
 ## 🤝 Contributing
 
@@ -166,7 +136,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 See [CHANGELOG.md](CHANGELOG.md) for a detailed list of changes.
 
-### 1.0.0 (2025-11-03)
+### 1.0.0 (2025-11-04)
 
 Initial release with:
 - Custom project labels with name and emoji
@@ -197,6 +167,6 @@ Steps to run the extension in development:
 ---
 
 **Enjoy!** If you find this extension useful, please consider:
-- ⭐ [Starring the repo on GitHub](https://github.com/yourusername/statusmark)
+- ⭐ [Starring the repo on GitHub](https://github.com/mig-code/status-mark)
 - 📝 Leaving a review on the Marketplace
-- 🐛 [Reporting issues or suggesting features](https://github.com/yourusername/statusmark/issues)
+- 🐛 [Reporting issues or suggesting features](https://github.com/mig-code/status-mark/issues)
