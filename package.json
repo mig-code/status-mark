@@ -1,0 +1,100 @@
+{
+  "name": "statusmark",
+  "displayName": "StatusMark",
+  "description": "Identify your workspaces with custom titles, emojis, and colors in the status bar",
+  "version": "1.0.0",
+  "publisher": "mig-code",
+  "author": {
+    "name": "Miguel"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#007ACC",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mig-code/status-mark"
+  },
+  "bugs": {
+    "url": "https://github.com/mig-code/status-mark/issues"
+  },
+  "homepage": "https://github.com/mig-code/status-mark#readme",
+  "keywords": [
+    "status-bar",
+    "statusbar",
+    "workspace",
+    "project",
+    "identifier",
+    "label",
+    "color",
+    "emoji",
+    "customization",
+    "title",
+    "badge",
+    "theme",
+    "branding"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "statusmark.configure",
+        "title": "StatusMark: Configure"
+      },
+      {
+        "command": "statusmark.configureStatusBarColor",
+        "title": "StatusMark: Configure Status Bar Color"
+      },
+      {
+        "command": "statusmark.reset",
+        "title": "StatusMark: Reset Workspace Settings"
+      }
+    ],
+    "configuration": {
+      "title": "StatusMark",
+      "properties": {
+        "statusmark.name": {
+          "type": "string",
+          "default": "",
+          "description": "Project name displayed in the status bar"
+        },
+        "statusmark.color": {
+          "type": "string",
+          "default": "",
+          "description": "Text color for the status bar label"
+        },
+        "statusmark.emoji": {
+          "type": "string",
+          "default": "",
+          "description": "Emoji shown next to the project name"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "vscode:prepublish": "npm run compile",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.6.2"
+  }
+}
