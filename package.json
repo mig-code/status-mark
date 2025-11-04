@@ -2,7 +2,7 @@
   "name": "statusmark",
   "displayName": "StatusMark",
   "description": "Identify your workspaces with custom titles, emojis, and colors in the status bar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "mig-code",
   "author": {
     "name": "Miguel"
